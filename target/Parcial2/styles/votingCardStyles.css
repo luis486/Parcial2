@@ -1,0 +1,16 @@
+
+#candidateComponent{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-flow: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.containerGraphic{
+    max-width: 1000px;
+    max-height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
