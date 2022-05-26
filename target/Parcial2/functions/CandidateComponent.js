@@ -8,12 +8,12 @@ class CandidateComponent{
 
         let html=`<div class="card-group">
         <div class="card text-center" style="width: 24rem;">
-        <img src="${this.candidate.groupImage}" class="card-img-top" alt="..." width="400px" height="400px">
+        <img src="${this.candidate.groupImage}" class="card-img-top" alt="..." width="200px" height="200px">
         <div class="row">
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-      <img src="${this.candidate.presidentImage}" class="card-img-top" alt="..."  width="150px" height="150px">
+      <img src="${this.candidate.presidentImage}" class="card-img-top" alt="..."  width="75px" height="75px">
       <h7 class="card-title"><b> PRESIDENTE</b><br>${this.candidate.president}</h7>
       </div>
     </div>
@@ -21,7 +21,7 @@ class CandidateComponent{
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-      <img src="${this.candidate.vicepresidentImage}" class="card-img-top" alt="..." width="150px" height="150px">
+      <img src="${this.candidate.vicepresidentImage}" class="card-img-top" alt="..." width="75px" height="75px">
       <h7 class="card-title"><b> VICEPRESIDENTE</b><br>${this.candidate.vicepresident}</h7>
       </div>
     </div>
@@ -35,7 +35,7 @@ class CandidateComponent{
         if (this.candidate.president=="VOTO EN BLANCO"){
         html=`<div class="card-group">
         <div class="card text-center" style="width: 24rem;">
-        <img src="${this.candidate.presidentImage}" class="card-img-top" alt="..." width="400px" height="400px">
+        <img src="${this.candidate.presidentImage}" class="card-img-top" alt="..." width="200px" height="200px">
         <div class="card-body">
             <h3 class="card-title align-center">VOTO EN BLANCO</h3>
             </div>
