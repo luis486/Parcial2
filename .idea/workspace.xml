@@ -10,8 +10,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66c9558-53b4-41d1-a63d-ff6d6f473d1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sistema_de_Votacion.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DbConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/provider/CandidateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/provider/PersonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CandidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/db/DbConn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/entity/Candidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/model/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/provider/CandidateProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/classes/services/CandidateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/gson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/hk2-api-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/hk2-locator-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/hk2-utils-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.json-1.1.6-module.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.json-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.json-api-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.json.bind-api-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/javassist-3.25.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jaxrs-ri-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-client-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-common-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-container-servlet-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-container-servlet-core-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-hk2-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-media-jaxb-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-media-json-binding-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-media-sse-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/jersey-server-2.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/lib/yasson-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/functions/Candidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/functions/Candidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/functions/CandidateComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/functions/CandidateComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/functions/results.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/functions/results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/functions/votingCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/functions/votingCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sistema_de_Votacion/styles/votingCardStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/Votacion/styles/votingCardStyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +91,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jhorman Mera/MyWorkspace/Sistema_de_Votacion/src/main/java&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jhorman Mera\MyWorkspace\Sistema_de_Votacion\src\main\java" />
@@ -151,6 +206,7 @@
       <workItem from="1653519403180" duration="783000" />
       <workItem from="1653520627234" duration="39000" />
       <workItem from="1653520839980" duration="1164000" />
+      <workItem from="1653529127274" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial Monolito">
       <created>1653519604187</created>
@@ -164,6 +220,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial Monolito" />

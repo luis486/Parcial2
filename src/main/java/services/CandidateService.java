@@ -1,8 +1,8 @@
 package services;
 
-import entity.Candidate;
-import model.Message;
-import provider.CandidateProvider;
+import entity.Person;
+import model.Json;
+import provider.PersonProvider;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.PUT;
@@ -20,14 +20,14 @@ public class CandidateService{
     @Produces("application/json")
     public Response getCandidates() {
         try {
-            CandidateProvider provider = new CandidateProvider();
-            ArrayList<Candidate> candidates = provider.getCandidates();
+            PersonProvider provider = new PersonProvider();
+            ArrayList<Person> candidates = provider.getCandidates();
             return Response.status(200).header("Access-Control-Allow-Origin","*").entity(candidates).build();
         } catch (SQLException ex) {
-            Message m = new Message("SQL Exception", ex.getMessage());
+            Json m = new Json("SQL Exception", ex.getMessage());
             return Response.status(500).header("Access-Control-Allow-Origin","*").entity(m).build();
         } catch (ClassNotFoundException ex) {
-            Message m = new Message("Class not found Except", ex.getMessage());
+            Json m = new Json("Class not found Except", ex.getMessage());
             return Response.status(500).header("Access-Control-Allow-Origin","*").entity(m).build();
         }
 
@@ -35,18 +35,18 @@ public class CandidateService{
     @PUT
     @Path("Actualizar")
     @Produces("application/json")
-    public Response updateVotes(Candidate candidate){
-        CandidateProvider provider = new CandidateProvider();
+    public Response updateVotes(Person candidate){
+        PersonProvider provider = new PersonProvider();
         try {
             provider.updateTotalVotes(candidate);
 
-            Message m2 = new Message("SQL Sucess","Sucess");
+            Json m2 = new Json("SQL Sucess","Sucess");
             return Response.status(200).header("Access-Control-Allow-Origin","*").entity(m2).build();
         } catch (SQLException e) {
-            Message m = new Message("SQL Exception", e.getMessage());
+            Json m = new Json("SQL Exception", e.getMessage());
             return Response.status(500).header("Access-Control-Allow-Origin","*").entity(m).build();
         } catch (ClassNotFoundException ex) {
-            Message m = new Message("Class not found Except", ex.getMessage());
+            Json m = new Json("Class not found Except", ex.getMessage());
             return Response.status(500).header("Access-Control-Allow-Origin","*").entity(m).build();
         }
 

@@ -1,10 +1,10 @@
 package model;
 
-public class Message {
+public class Json {
     private String type;
     private String msg;
 
-    public Message(String type, String msg) {
+    public Json(String type, String msg) {
         this.type = type;
         this.msg = msg;
     }
