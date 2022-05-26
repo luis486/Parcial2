@@ -29,19 +29,19 @@ public class PersonProvider {
         return candidates;
     }
     public void updateTotalVotes(Person candidate) throws SQLException, ClassNotFoundException {
-        DbConnection conn = new DbConnection();
+        DbConnection connection = new DbConnection();
 
         String sql = "SELECT * FROM candidatosA00369008 WHERE id = $ID";
         sql = sql.replace("$ID",Integer.toString(candidate.getId()));
-        ResultSet results =  conn.getData(sql);
+        ResultSet results =  connection.getData(sql);
         Person can = new Person();
         while(results.next()){
             can.setAmountVotes(results.getInt("votes"));
         }
-        sql="UPDATE candidatesA00369206 SET votes = $TOTAL WHERE id = $ID";
+        sql="UPDATE candidatosA003699008 SET votes = $TOTAL WHERE id = $ID";
         sql= sql.replace("$ID",Integer.toString(candidate.getId()));
         sql = sql.replace("$TOTAL",Integer.toString(can.getAmountVotes()+1));
-        conn.runQuery(sql);
-        conn.close();
+        connection.runQuery(sql);
+        connection.close();
     }
 }

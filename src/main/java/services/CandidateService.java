@@ -12,11 +12,11 @@ import javax.ws.rs.core.Response;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-@Path("Votacion")
+@Path("Eleccion")
 public class CandidateService{
 
     @GET
-    @Path("Candidatos")
+    @Path("CandidatosPresidenciales")
     @Produces("application/json")
     public Response getCandidates() {
         try {
@@ -33,7 +33,7 @@ public class CandidateService{
 
     }
     @PUT
-    @Path("Actualizar")
+    @Path("Resultados")
     @Produces("application/json")
     public Response updateVotes(Person candidate){
         PersonProvider provider = new PersonProvider();

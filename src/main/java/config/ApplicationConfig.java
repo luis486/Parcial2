@@ -5,7 +5,7 @@ import javax.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
-@ApplicationPath("Elecciones")
+@ApplicationPath("Votaciones")
 public class ApplicationConfig extends Application {
     @Override
     public Set<Class<?>> getClasses() {
