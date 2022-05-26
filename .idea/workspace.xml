@@ -11,12 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b66c9558-53b4-41d1-a63d-ff6d6f473d1a" name="Changes" comment="Commit inicial Monolito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Parcial2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Parcial2/WEB-INF/classes/db/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/WEB-INF/classes/db/DbConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Parcial2/functions/CandidateComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/functions/CandidateComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Parcial2/functions/Person.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Parcial2/functions/results.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/functions/results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Parcial2/functions/votingCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/functions/votingCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Parcial2/images/icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Parcial2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Parcial2/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parcial2/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/DbConnection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Parcial2:war">
@@ -158,7 +163,7 @@
       <workItem from="1653519403180" duration="783000" />
       <workItem from="1653520627234" duration="39000" />
       <workItem from="1653520839980" duration="1164000" />
-      <workItem from="1653529127274" duration="4143000" />
+      <workItem from="1653529127274" duration="8595000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial Monolito">
       <created>1653519604187</created>

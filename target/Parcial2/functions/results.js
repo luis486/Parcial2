@@ -2,16 +2,16 @@ const getData = async()=>{
   let url = `http://localhost:8080/Parcial2/Votaciones/Eleccion/CandidatosPresidenciales`;
   let response = await fetch(url, {method:'GET'} );
   let obj = await response.json();
-  const nombres = [obj[0].president, obj[1].president, obj[2].president, obj[3].president, obj[4].president,obj[5].president,obj[6].president,obj[7].president,obj[8].president];
-  return nombres;
+  const names = [obj[0].president, obj[1].president, obj[2].president, obj[3].president, obj[4].president,obj[5].president,obj[6].president,obj[7].president,obj[8].president];
+  return names;
 }
 
 const getDataVotes = async()=>{
   let url = `http://localhost:8080/Parcial2/Votaciones/Eleccion/CandidatosPresidenciales`;
   let response = await fetch(url, {method:'GET'} );
   let obj = await response.json();
-  const amountVotes = [obj[0].amountVotes, obj[1].amountVotes, obj[2].amountVotes, obj[3].amountVotes, obj[4].amountVotes, obj[5].amountVotes,obj[6].amountVotes,obj[7].amountVotes,obj[8].amountVotes];
-  return amountVotes;
+  const votes = [obj[0].amountVotes, obj[1].amountVotes, obj[2].amountVotes, obj[3].amountVotes, obj[4].amountVotes, obj[5].amountVotes,obj[6].amountVotes,obj[7].amountVotes,obj[8].amountVotes];
+  return votes;
 }
 
 

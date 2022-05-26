@@ -1,4 +1,4 @@
-class Person {
+class Candidate{
 
     constructor(id,president,vicepresident,presidentImage,vicepresidentImage,groupImage,amountVotes){
         this.id=id;
