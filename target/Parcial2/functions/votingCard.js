@@ -1,7 +1,7 @@
-const candidateContainer = document.getElementById('candidateComponent');
+const candidateContainer = document.getElementById('personComponent');
 
 const getCandidates = async()=>{
-   let url = `http://localhost:8080/Sistema_de_Votacion/Elecciones/Votacion/Candidatos`;
+   let url = `http://localhost:8080/Parcial2/Votaciones/Eleccion/CandidatosPresidenciales`;
    let response = await fetch(url, {method:'GET'} );
    let obj = await response.json();
 
